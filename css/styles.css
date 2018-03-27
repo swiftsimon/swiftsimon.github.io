@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header {
+    height: 95vh;
+    max-height: 600px;
+    background-image: url(../img/gurtrude.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    
+}
+
+.header-primary {
+    text-transform: uppercase;
+}
+
+
+.header-primary-main {
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 20px;
+}
+
+
+.header-primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 22.4px;
+}
+
+.row-of-three {
+    background-color: rgb(92, 92, 92);
+    height: 200px;
+}
+
+.row-of-three img{
+    height: 200px;
+    width: 33.15%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1260px) {
+    .header-primary-main {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+    
+    .header-primary-sub {
+        font-size: 15px;
+        letter-spacing: 10px;
+    }
+
+    .header {
+        max-height: 500px;
+    }
+}
