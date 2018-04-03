@@ -63,6 +63,35 @@ body {
 
 
 
+.row-of-two {
+    background-color:#D83918;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.row-of-two img {
+    display: flex;
+    flex: 0 1;
+    height: 650px;
+    width: 500px;
+    margin: 90px 30px 90px 30px;
+    padding: 0;
+    border: 30px solid black;
+}
+
+.row-two-css {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1E2225;
+    flex-wrap: wrap;
+    min-width: 150px;
+    
+}
+
 
 
 
@@ -80,4 +109,9 @@ body {
     .header {
         max-height: 500px;
     }
+
+    .row-of-three img{
+        width: 33%;
+    }
+
 }
