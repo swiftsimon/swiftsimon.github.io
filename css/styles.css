@@ -92,6 +92,39 @@ body {
     
 }
 
+.column-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #8D6E2E; */
+    background-color: black;
+}
+
+.wideBtn {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(2, 2, 61);
+    height: 100px;
+    font-size: 3em;
+    padding-top: 14px;
+    letter-spacing: 9px;
+    
+}
+
+.wideBtn:hover {
+    color: rgb(177, 175, 175);
+}
+
+
+#map {
+    width: 80%;
+    display: none;
+    border: 70px solid black;
+    margin-top: 50px;
+    
+}
 
 
 
@@ -103,7 +136,7 @@ body {
     
     .header-primary-sub {
         font-size: 15px;
-        letter-spacing: 10px;
+        letter-spacing: 12.7px;
     }
 
     .header {
