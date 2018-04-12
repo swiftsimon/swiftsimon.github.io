@@ -101,7 +101,7 @@ body {
     background-color: black;
 }
 
-.wideBtn {
+.wide-btn {
     position: relative;
     width: 100%;
     text-align: center;
@@ -113,7 +113,7 @@ body {
     
 }
 
-.wideBtn:hover {
+.wide-btn:hover {
     color: rgb(177, 175, 175);
 }
 
